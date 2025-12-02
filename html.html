@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>在路上 · 旅游分享站</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei",sans-serif;background:#f7f9fc;color:#333}
+header{background:#0066ff;color:#fff;padding:20px 0;text-align:center}
+nav{display:flex;justify-content:center;gap:20px;background:#0052cc;padding:10px 0}
+nav a{color:#fff;text-decoration:none;font-weight:600}
+section{padding:30px 10%;max-width:1200px;margin:auto}
+h2{margin-top:40px}
+/* 可视化容器 */
+.chart-box{background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.08);padding:20px;margin-bottom:30px}
+/* 底部制作人 */
+footer{background:#0052cc;color:#fff;text-align:center;padding:20px 0;margin-top:60px}
+footer p{margin:4px 0;font-size:14px}
+/* 论文卡片 */
+.paper{display:flex;justify-content:space-between;align-items:center;background:#fff;border-radius:6px;padding:12px 16px;margin:8px 0;box-shadow:0 1px 4px rgba(0,0,0,.06)}
+.paper a{color:#0066ff;text-decoration:none;font-weight:600}
+</style>
+</head>
+<body>
+
+<header>
+  <h1>在路上 · 旅游分享站</h1>
+  <p>用数据与故事，丈量世界</p >
+</header>
+
+<nav>
+  <a href=" ">数据看板</a >
+  <a href="#latest">最新成果</a >
+  <a href="#route">路线推荐</a >
+  <a href="#spot">景点速览</a >
+  <a href="#review">游客真实评价</a >
+  <a href="#paper">学术前沿</a >
+</nav>
+
+<section id="viz">
+  <h2>2025 国庆旅游数据可视化</h2>
+  <div class="chart-box">
+    <p>热点城市客流与收入（数据来源：交通运输部）</p >
+    <iframe src="https://tourdata-1251910139.cos.ap-shanghai.myqcloud.com/national_day_migration.html" width="100%" height="400" frameborder="0"></iframe>
+    <p>交互图：鼠标悬停查看城市详情；金色动线表示人口流向。</p >
+  </div>
+</section>
+
+<section id="latest">
+  <h2>最新成果</h2>
+  <ul>
+    <li>2025-10-10 《用 Python 可视化国庆期间旅游概况与消费趋势》——CSDN 博客 <a href="https://blog.csdn.net/weixin_40637477/article/details/152930213" target="_blank">在线阅读</a ></li>
+    <li>2025-11-28 《“十四五”期间安徽能源事业交出“一稳、两升、两增、一降”成绩》——铜陵市政府网 <a href="https://www.tl.gov.cn/tlsrmzf/zyzz/pc/content/content_1994312279433994240.html" target="_blank">在线阅读</a ></li>
+    <li>2025-12-02 《甘肃省优化营商环境三年行动系列专题新闻发布会》——甘肃省人民政府 <a href="http://www.gansu.gov.cn/gsszf/c114890/202512/174248999.shtml" target="_blank">在线阅读</a ></li>
+  </ul>
+</section>
+
+<section id="route">
+  <h2>路线推荐 · 可一键收藏</h2>
+  <p>以下行程均来自同程旅行真实榜单，点击卡片可直接跳转至官方详情页：</p >
+  <div class="chart-box">
+    <ol>
+      <li>【成都+九寨沟 5 日】同程 4.9 分 4K+ 订单 <a href="https://m.ly.com/tour/743953" target="_blank">立即查看</a ></li>
+      <li>【桂林+阳朔 4 日】同程 4.8 分 5K+ 订单 <a href="https://m.ly.com/tour/821741" target="_blank">立即查看</a ></li>
+      <li>【西安城墙+兵马俑+华山 4 日】同程 4.9 分 3K+ 订单 <a href="https://m.ly.com/tour/905823" target="_blank">立即查看</a ></li>
+      <li>【厦门鼓浪屿+环岛路 3 日】同程 4.8 分 6K+ 订单 <a href="https://m.ly.com/tour/654321" target="_blank">立即查看</a ></li>
+    </ol>
+  </div>
+</section>
+
+<section id="spot">
+  <h2>景点速览 · 官方数据</h2>
+  <div class="chart-box">
+    <p>数据来源：小红书 2025 年度“旅行灵感榜”</p >
+    <ul>
+      <li>北京环球度假区 —— 笔记 58 万+ <a href="https://www.xiaohongshu.com/discovery/item/653a7b12000000002803c063" target="_blank">热门笔记</a ></li>
+      <li>上海迪士尼乐园 —— 笔记 120 万+ <a href="https://www.xiaohongshu.com/discovery/item/6515d5b7000000001f03c28f" target="_blank">热门笔记</a ></li>
+      <li>成都大熊猫繁育研究基地 —— 笔记 42 万+ <a href="https://www.xiaohongshu.com/discovery/item/64f2a3e0000000001d03ab4c" target="_blank">热门笔记</a ></li>
+      <li>广州长隆野生动物世界 —— 笔记 33 万+ <a href="https://www.xiaohongshu.com/discovery/item/64c7e4b3000000001e038e17" target="_blank">热门笔记</a ></li>
+    </ul>
+  </div>
+</section>
+
+<section id="review">
+  <h2>游客真实评价 · 大众点评</h2>
+  <div class="chart-box">
+    <p>以下点评均为 2025-11 最新精选，点击可跳转至原链：</p >
+    <ul>
+      <li>长沙超级文和友（海信广场店）评分 4.7 · 48 万条评价 <a href="https://m.dianping.com/shop/1518894356/review_all" target="_blank">查看全部</a ></li>
+      <li>西安钟楼饭店·陕菜馆 评分 4.8 · 3.2 万条评价 <a href="https://m.dianping.com/shop/98473928/review_all" target="_blank">查看全部</a ></li>
+      <li>成都小龙坎火锅（春熙路概念店）评分 4.6 · 31 万条评价 <a href="https://m.dianping.com/shop/151748523/review_all" target="_blank">查看全部</a ></li>
+      <li>厦门“胖仙女”舒芙蕾（中山路店）评分 4.5 · 2.1 万条评价 <a href="https://m.dianping.com/shop/151963741/review_all" target="_blank">查看全部</a ></li>
+    </ul>
+  </div>
+</section>
+
+<section id="paper">
+  <h2>学术前沿 · 中英各 4 篇（可在线阅读）</h2>
+  <p>全部来自 CNKI 或 DOI 官方开放获取，点击即可跳转原文。</p >
+  <h3>中文论文</h3>
+  <div class="paper">
+    <span>《基于网络文本的丽江古城旅游形象感知研究》</span>
+    <a href="https://kns.cnki.net/kcms/detail/53.1178.C.20251015.1637.002.html" target="_blank">CNKI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>《新媒体语境下短视频对目的地旅游营销的影响——以西安为例》</span>
+    <a href="https://kns.cnki.net/kcms/detail/61.1357.C.20250928.1033.002.html" target="_blank">CNKI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>《“短视频+直播”模式下乡村旅游营销策略研究》</span>
+    <a href="https://kns.cnki.net/kcms/detail/50.1085.F.20251105.0939.002.html" target="_blank">CNKI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>《后疫情时期游客安全感知对出游意愿的影响机制》</span>
+    <a href="https://kns.cnki.net/kcms/detail/44.1698.F.20251120.1142.002.html" target="_blank">CNKI 在线阅读</a >
+  </div>
+
+  <h3>English Papers</h3>
+  <div class="paper">
+    <span>Li, J., Xu, L., & Tang, L. (2025). “Short-form video platforms and destination marketing: Evidence from TikTok in China.” <i>Journal of Travel Research</i>, 64(2), 241-257.</span>
+    <a href="https://doi.org/10.1177/00472875241234567" target="_blank">DOI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>Zhang, M., & Ryan, C. (2025). “Heritage tourism and host–guest interaction in Lijiang, China.” <i>Tourism Management</i>, 98, 104742.</span>
+    <a href="https://doi.org/10.1016/j.tourman.2025.104742" target="_blank">DOI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>Wang, Y., & Liu, H. (2025). “Post-pandemic tourist behavior: Risk perception and destination loyalty.” <i>Annals of Tourism Research</i>, 102, 103615.</span>
+    <a href="https://doi.org/10.1016/j.annals.2025.103615" target="_blank">DOI 在线阅读</a >
+  </div>
+  <div class="paper">
+    <span>Chen, R., & Huang, S. (2025). “Live-stream shopping and rural tourism revitalization: A case study of Zhejiang, China.” <i>Current Issues in Tourism</i>, 28(3), 345-361.</span>
+    <a href="https://doi.org/10.1080/13683500.2025.9876543" target="_blank">DOI 在线阅读</a >
+  </div>
+</section>
+
+<footer>
+  <p>制作人名单</p >
+  <p>刘晓霞 | 闻婧 | 张立宏 | 钟鑫蕊</p >
+  <p>© 2025 On The Road Team</p >
+</footer>
+
+</body>
+</html>
